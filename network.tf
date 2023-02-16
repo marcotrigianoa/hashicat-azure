@@ -4,3 +4,7 @@ module "network" {
   # insert required variables here
   resource_group_name = "gaurav_vn"
 }
+
+resource "azurerm_resource_group" "gaurav_vn" {
+
+}
