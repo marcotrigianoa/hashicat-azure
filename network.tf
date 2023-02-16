@@ -6,5 +6,6 @@ module "network" {
 }
 
 resource "azurerm_resource_group" "gaurav_vn" {
-
+  name     = "gaurav-workshop"
+  location = "canadacentral"
 }
